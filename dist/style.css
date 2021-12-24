@@ -130,15 +130,22 @@ body {
   padding: 0;
   list-style: none;
 }
-.block-list li {
+.block-list ul > :not(:last-child) {
+  margin-bottom: 1rem;
+}
+.block-list li div {
   display: flex;
   align-items: flex-start;
 }
-.block-list li .text {
+.block-list li div .text {
   flex-grow: 1;
 }
-.block-list li :not(:last-child) {
+.block-list li div :not(:last-child) {
   margin-right: 0.5rem;
+}
+.block-list li .task-date {
+  font-size: 0.875rem;
+  color: grey;
 }
 
 .remove, .done {
