@@ -9,6 +9,10 @@ body {
     font-family: 'Source Sans 3', sans-serif; 
 }
 
+.hide {
+    display: none;
+}
+
 .wrap {
     display: flex;
     justify-content: center;
@@ -74,6 +78,9 @@ body {
                     margin-right: 0.5rem;
                 }
 
+                .text.done {
+                    opacity: .5;
+                }
         
         }
 
@@ -97,4 +104,6 @@ body {
 .remove{
     color: red;
 }
+
+
 
